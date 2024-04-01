@@ -1,106 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style.css">
   <title>main</title>
 </head>
+
 <body>
-<!-- header start -->
-<div class="header">
-  <div class="logo">YourLogo</div>
-  <ul class="links">
-    <li><a href="#">Link 1</a></li>
-    <li><a href="#">Link 2</a></li>
-    <li><a href="#">Link 3</a></li>
-    <li><a href="#">Link 4</a></li>
-    <li><a href="#">Link 5</a></li>
+
+<header>
+  <a href="#" class="logo">Logo</a>
+  <ul>
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">contact us</a></li>
+    <li><a href="#">videos</a></li>
+    <li><a href="#">notes</a></li>
   </ul>
-  <!-- <div class="search-bar">
-    <input type="text" placeholder="Search...">
-  </div> -->
-  <div class="login-signup">
-    <a href="#">Login</a>
-    <a href="#">Signup</a>
-  </div>
+</header>
+<section>
+  <img src="images/WhatsApp Video 2024-04-01 at 03.01.43_c1076a1b.gif" id="stud">
+ <a href="#sec" id="btn">Explore</a>
+</section>
+<div class="sec" id="sec">
+  <h2>content</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatibus, cum veniam aperiam alias accusamus sit deleniti dolore quas libero quis cupiditate unde necessitatibus vitae hic velit, debitis, placeat aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ad, tempore culpa aperiam minima officia laudantium nobis aliquam tenetur dolor eius debitis delectus illo perspiciatis cupiditate eaque commodi at? Officia! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum rerum aut laborum voluptatum reprehenderit autem pariatur iure dolor, nihil voluptates, cum minus facilis! Est omnis dolor officiis veniam alias fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia nobis, harum itaque repellendus dicta in iure corporis, amet mollitia architecto impedit commodi voluptas? Numquam aliquam magni dolores ratione adipisci! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero illo delectus at, minima, quis placeat sapiente voluptatem vitae quisquam perspiciatis quidem aliquid nostrum eveniet commodi facilis illum iure a dolorem.
+  </p>
 </div>
+<script>
+  let stud = document.getElementById('stud');
+  let btn = document.getElementById('btn');
+  let header = document.querySelector('header');
 
-<!-- header end -->
-
-
-<!-- video section start -->
-
-  <div class="container">
-    <section id="videos">
-      <!-- Videos content goes here -->
-      <h2>Videos</h2>
-      <div class="video-list">
-        <div class="video">Video 1</div>
-        <div class="video">Video 2</div>
-        <div class="video">Video 3</div>
-        <div class="video">Video 1</div>
-        <div class="video">Video 2</div>
-        <div class="video">Video 3</div>
-      </div>
-    </section>
-  </div>
-
-
-  <a href="view-more.html">View More</a>
-
-<!-- video section end -->
-
-<!-- notes section-->
-<div class="container">
-  <section id="notes">
-    <!-- Videos content goes here -->
-    <h2>Notes</h2>
-    <div class="notes-list">
-      <div class="note">Note 1</div>
-      <div class="note">Note 2</div>
-      <div class="note">Note 3</div>
-      <div class="note">Note 1</div>
-      <div class="note">Note 2</div>
-      <div class="note">Note 3</div>
-    </div>
-  </section>
-</div>
-<a href="view-more.html">View More</a>
-
-<!-- footer section-->
-<footer>
-  <div class="container">
-      <div class="footer-content">
-          <h3>Contact Us</h3>
-          <p>Email:Info@example.com</p>
-          <p>Phone:+121 56556 565556</p>
-          <p>Address:Your Address 123 street</p>
-      </div>
-      <div class="footer-content">
-          <h3>Quick Links</h3>
-           <ul class="list">
-              <li><a href="">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Products</a></li>
-              <li><a href="">Contact</a></li>
-           </ul>
-      </div>
-      <div class="footer-content">
-          <h3>Follow Us</h3>
-          <ul class="social-icons">
-           <li><a href=""><i class="fab fa-facebook"></i></a></li>
-           <li><a href=""><i class="fab fa-twitter"></i></a></li>
-           <li><a href=""><i class="fab fa-instagram"></i></a></li>
-           <li><a href=""><i class="fab fa-linkedin"></i></a></li>
-          </ul>
-          </div>
-  </div>
-  <div class="bottom-bar">
-      <p>&copy; 2023 your company . All rights reserved</p>
-  </div>
-</footer>
-
+  window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    stud.style.top=value *0.5+'px';
+    haeder.style.top=value * 0.5 +'px';
+  })
+</script>
 </body>
+
 </html>
