@@ -4,81 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile page</title>
+    <title>Drob-down Proflie menu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class ="container">
-        <div class="main">
-            <div class="topbar">
-                <a href="تسجيل الخروج"></a>
-                <a href="مساعدة"></a>
-                <a href="إضافة منشور"></a>
-                <a href="الصفحة الرئيسية"></a>
-
-             </div>
-             <div class="row">
-                <div class="col-md-4 mt-1">
-                    <div class="card text-center sidebar">
-                        <div class="card-body">
-                            <img src="IMGG.png" class="rounded-circle" width="150">
-                            <div class="mt-3">
-                                <h3>شادن الرشود</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=" col-md-8 mt-1">
-                    <div class="card mb-3 content">
-                        <h1 class="m-3 pt-3"> About</h1>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <h5>الاسم الكامل</h5>
-                                </div>
-                                <div class="col-md-9 text-secondary">
-                                    شادن الرشود
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="col-md-3">
-                                <h5>البريد الالكتروني</h5>
-                            </div>
-                            <div class="col-md-9 text-secondary">
-                                skr@gmail.com
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <h5>كلمة السر</h5>
-                            </div>
-                            <div class="col-md-9 text-secondary">
-                                xxxxxxxx
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="card mb-3 content">
-                        <h1 class="m-3"> اخر المنشورات</h1>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <h5>اسم المنشور</h5>
-                                </div>
-                                <div class="col-md-9 text-secondary">
-                                    وصف المنشور
-                                </div>
-                        
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             </div>
-
-        </div>
-
-    </div>
+<body> 
+        
     
-    
+            <img src="/img/profile.png" class="user" onclick="toggleMenu()"> 
+
+
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="img/profile.png" >
+                        <h3>Shaden R</h3>
+                    </div>
+                    <hr>
+                    <a href="#" class="sub-menu-link">
+                        <img src="img/home-page-42.png">
+                        <p>Home</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="Account.html" class="sub-menu-link">
+                        <img src="img/profile.png">
+                        <p>Account</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="img/posts.png">
+                        <p>My posts</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="img/logout.png">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+    </dev>
+
+
+    <script>
+        let subMenu= document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+    </script>
 </body>
 </html>
