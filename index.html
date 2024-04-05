@@ -19,12 +19,44 @@
     <ul>
       <li><a href="#" class="active">Home</a></li>
       <li><a href="#">contact us</a></li>
-      <li><a href="#">videos</a></li>
-      <li><a href="#">notes</a></li>
-      <li><a href="#"><i class="fas fa-user-plus" style="--fa-primary-color: #a3c6d8; --fa-secondary-color: #a3c6d8;"></i></a></li>
-
+      <li><a href="vidoespage.html">videos</a></li>
+      <li><a href="notespage.html">notes</a></li>
     </ul>
+    <img src="/images/add_user_member_friend-512.webp" class="user" onclick="toggleMenu()"> 
+
+    <div class="sub-menu-wrap" id="subMenu">
+      <div class="sub-menu">
+          <div class="user-info">
+              <img src="images/2c80ydc.jpg" >
+              <h3>Shaden R</h3>
+          </div>
+          <hr>
+          <a href="#"  class="sub-menu-link" onclick="toggleMenu()">
+              <img src="images/gohome_104248.png">
+              <p>Home </p>
+              <span>></span>
+          </a>
+
+          <a href="Account.html" class="sub-menu-link">
+              <img src="images/profile-icon.png">
+              <p>Account</p>
+              <span>></span>
+          </a>
+          <a href="myposts.html" class="sub-menu-link">
+              <img src="images/note-text-512.webp">
+              <p>My posts</p>
+              <span>></span>
+          </a>
+          <a href="login.html" class="sub-menu-link">
+              <img src="images/icone-loggout.png">
+              <p>Logout</p>
+              <span>></span>
+          </a>
+
+      </div>
+  </div>
   </header>
+
   <section class="Hero">
     <img src="images/49c62cd432f0a901f53b001e1848e263.gif" id="stud">
     <a href="#sec" id="btn">Explore</a>
@@ -252,12 +284,16 @@
     let stud = document.getElementById('stud');
     let btn = document.getElementById('btn');
     let header = document.querySelector('header');
+    let subMenu= document.getElementById("subMenu");
 
     window.addEventListener('scroll', function () {
       let value = window.scrollY;
       stud.style.top = value * 0.5 + 'px';
       haeder.style.top = value * 0.5 + 'px';
     })
+    function toggleMenu(){
+    subMenu.classList.toggle("open-menu");
+    }
   </script>
 
   <!-- footer section start -->
