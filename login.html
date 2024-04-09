@@ -22,40 +22,62 @@
                 <label for="signup" class="slide signup">Signup</label>
                 <div class="slider-tab"></div>
             </div>
+            <!--login field-->
             <div class="form-inner">
                 <form action="#" class="login">
                     <div class="field">
-                        <input type="text" placeholder="username / Email " required>
+                        <input type="email" id="email" placeholder="username / Email " required>
                     </div>
                     <div class="field">
-                        <input type="password" placeholder="Password " required>
+                        <input type="password" id="password" placeholder="Password " required>
                     </div>
                     <div class="pass-link"><a href="#">Forget password?</a></div>
                     <div class="field btn">
                         <div class="btn-layer"></div>
-                        <input type="submit" value="Login">
+                        <input type="submit" value="Login" onclick="navigateToIndex()">
+                        </a>
                     </div>
-                    <div class="signup-link">Not a membe? <a href=""> Signup now </a></div>
+                    <div class="signup-link">Not a member? <a href=""> Signup now </a></div>
                 </form>
+
+                <!--signup field-->
                 <form action="#" class="signup">
                     <div class="field">
-                        <input type="email" placeholder="Email address " required>
+                        <input type="email" id="email" placeholder="Email address " required>
                     </div>
                     <div class="field">
-                        <input type="username" placeholder="Username " required>
+                        <input type="username" id="username" placeholder="Username" required>
                     </div>
                     <div class="field">
-                        <input type="password" placeholder="Password " required>
+                        <input type="password" id="password" placeholder="Password " required>
                     </div>
                     <div class="field btn">
                         <div class="btn-layer"></div>
-                        <input type="submit" value="Signup">
+                        <input type="submit" value="signup" onclick="navigateToIndex()">
                     </div>
                 </form>
             </div>
         </div>
     </div>
+    <!-- scrip start -->
     <script>
+        function navigateToIndex() {
+            event.preventDefault();
+
+            // Get the values from the email/username and password fields
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var username = document.getElementById("username").value;
+
+            // Validate the fields
+            if ((email && password) || username) {
+                // Both fields are filled, navigate to index.html
+                window.location.href = "index.html";
+            } else {
+                // Display an error message
+                alert("Please fill in both username/email and password fields.");
+            }
+        }
         const loginText = document.querySelector(".title-text .login");
         const loginForm = document.querySelector("form.login");
         const loginBtn = document.querySelector("label.login");
@@ -75,3 +97,5 @@
         });
     </script>
 </body>
+
+</html>
