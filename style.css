@@ -341,7 +341,7 @@ p{
 
 
 
-/* videos & notes section */
+/* videos section */
 
 .videos {
   display: grid;
@@ -417,8 +417,69 @@ p{
   font-size: 13px;
 }
 
-/* videos & notes section */
+/* notes section */
+.notes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
 
+.note img {
+  transition: .4s;
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  display: block;
+  border-radius: 4px 4px 0 0;
+}
+
+
+.note {
+  position: relative;
+  overflow: hidden;
+  box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  background-color: #faf9f7;
+  cursor: pointer;
+  padding-bottom: 10px; /* Add padding to create space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-content {
+  width: 100%;
+  color: #484440;
+  padding: 10px; /* Reduce padding from the bottom */
+  margin-bottom: 10px;
+  border-radius: 0 0 4px 4px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* more button */
+.more-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.more-button a{
+  text-decoration: none;
+  font-size: 1em;
+  color: #484440;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+  left: -10px;
+}
+.more-button a:hover{
+  color: #847e78;
+}
 
 /* footer */
 

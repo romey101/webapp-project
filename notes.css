@@ -220,14 +220,14 @@ h2{
   transition: all 1s;
 }
 
-.videos {
+.notes {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
 
-.video img {
+.note img {
   transition: .4s;
   width: 100%; /* Ensure the image takes the full width of its container */
   height: 200px; /* Set a fixed height for consistency */
@@ -237,7 +237,7 @@ h2{
 }
 
 
-.video {
+.note {
   position: relative;
   overflow: hidden;
   box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.4);
@@ -251,7 +251,7 @@ h2{
   align-items: center;
 }
 
-.video-content {
+.note-content {
   width: 100%;
   color: #484440;
   padding: 10px; /* Reduce padding from the bottom */
