@@ -480,6 +480,37 @@ p{
 .more-button a:hover{
   color: #847e78;
 }
+/* buy button */
+.buy-button {
+  background-color: #484440;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #847e78;
+}
+
+.vbuy-button {
+  position: relative;
+  left: 40%;
+  background-color: #484440;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.vbuy-button:hover {
+  background-color: #847e78;
+}
 
 /* footer */
 

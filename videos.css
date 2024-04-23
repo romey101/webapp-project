@@ -296,6 +296,24 @@ h2{
     z-index: 1;
     font-size: 13px;
   }
+  /* buy button */
+.buy-button {
+  position: relative;
+  left: 40%;
+  background-color: #484440;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #847e78;
+}
+
   /* footer */
 
 .footer-basic {
