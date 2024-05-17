@@ -317,6 +317,7 @@ textarea.input {
   align-items: center;
   font-size: 0.95rem;
   padding-bottom: 20px;
+  margin-top: 2rem;
 }
 
 .icon {
@@ -326,6 +327,7 @@ textarea.input {
 
 .social-media {
   padding: 2rem 0 0 0;
+  margin-top: 4rem;
 }
 
 .social-media p {
@@ -420,3 +422,73 @@ textarea.input {
     padding: 0.45rem 1.2rem;
   }
 }
+
+/* footer */
+
+.footer-basic {
+  height: 150px;
+  padding: 10px 0;
+  background-color: #F6F2EC;
+  color: #484440;
+  text-align: center;
+  z-index: 1000;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  display: flex;
+  /* Use flexbox to align items horizontally */
+  justify-content: center;
+  /* Center align list items */
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #484440;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #484440;
+  margin-bottom: 0;
+}
+
+/* end footer */

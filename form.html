@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
     <link rel="stylesheet" href="form.css" />
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
@@ -59,16 +64,12 @@
           <h3 class="title">Let's get in touch</h3>
           <div class="info">
             <div class="information">
-              <img src="images/location.png" class="icon" alt="" />
-              <p>92 Cherry Drive Uniondale, NY 11553</p>
-            </div>
-            <div class="information">
               <img src="images/email.png" class="icon" alt="" />
-              <p>lorem@ipsum.com</p>
+              <p>1Romey101@gmail.com</p>
             </div>
             <div class="information">
               <img src="images/phone.png" class="icon" alt="" />
-              <p>123-456-789</p>
+              <p>+966 50 105 6070</p>
             </div>
           </div>
 
@@ -89,9 +90,10 @@
         </div>
 
         <div class="contact-form">
-          <form action="index.html" autocomplete="off">
+          <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
             <h3 class="title">Contact us</h3>
             <div class="input-container">
+              <input type="hidden" name="access_key" value="49516519-838c-4efe-8dd1-5bf6bd242f9b">
               <input type="text" name="name" class="input" />
               <label for="">Username</label>
               <span>Username</span>
@@ -118,5 +120,29 @@
     </div>
 
     <script src="form.js"></script>
+
+     <!-- footer section start -->
+  <section class="footer-basic">
+    <footer>
+      <div class="social">
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href="">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+      </div>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Home</a></li>
+        <li class="list-inline-item"><a href="#">Services</a></li>
+        <li class="list-inline-item"><a href="#">About</a></li>
+      </ul>
+      <p class="copyright">STUDIUS © 2024</p>
+    </footer>
+  </div>
+
+  <!-- footer section end -->
   </body>
 </html>
