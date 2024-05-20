@@ -15,7 +15,7 @@ This project empowers students to become resourceful and entrepreneurial. It's a
 
 
 Technologies Used:
-Frontend: HTML, CSS, JavaScript
+Frontend: HTML, CSS, JavaScript.
 Backend: 
 
 Future Work:
