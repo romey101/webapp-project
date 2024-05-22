@@ -487,13 +487,18 @@ p{
   color: #847e78;
 }
 /* buy button */
+
+
 .buy-button {
+  position: relative;
+  left: 35%;
   background-color: #484440;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 4px;
   cursor: pointer;
+  margin-bottom: 10px;
   transition: background-color 0.3s ease;
 }
 
@@ -501,22 +506,40 @@ p{
   background-color: #847e78;
 }
 
-.vbuy-button {
+.buy1-button {
   position: relative;
-  left: 40%;
   background-color: #484440;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 4px;
   cursor: pointer;
   margin-bottom: 10px;
   transition: background-color 0.3s ease;
 }
 
-.vbuy-button:hover {
+.buy1-button:hover {
   background-color: #847e78;
 }
+
+
+
+/* .buy-button {
+  position: relative;
+  background-color: #484440;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #847e78;
+} */
+
 
 /* footer */
 
