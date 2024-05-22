@@ -1,0 +1,20 @@
+{
+  "name": "webapp-project-3",
+  "version": "1.0.0",
+  "description": "This project is designed to help students to leverage their knowledge and skills! You can turn your existing resources – like educational videos, detailed notes, or expertly highlighted textbooks – into a source of income.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.0"
+  }
+}

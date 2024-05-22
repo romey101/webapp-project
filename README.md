@@ -12,21 +12,3 @@ Monetize your knowledge: Earn income from the resources you've already created.
 Become an entrepreneur: Gain valuable experience in freelancing and running your own mini-business.
 Help others succeed: Share your knowledge and support fellow students in their academic journey.
 This project empowers students to become resourceful and entrepreneurial. It's a win-win situation: you earn while helping others learn!
-
-
-Technologies Used: 
- - Frontend: HTML, CSS, JavaScript.
- - Backend: 
-
-Our Goal:
- - Allow students to generate income from their educational materials
- - Provide a flexible platform for students to manage their studies and income.
- - Build a community where students help each other succeed academically.
-
-Future Work:
- - Develop a mobile application for on-the-go access.
- - Enhance security measures for transactions and data privacy.
- - Introduce a subscription model for premium resources.
-
-
-
