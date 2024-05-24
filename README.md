@@ -27,5 +27,19 @@ Future Work:
 - Enhance security measures for transactions and data privacy.
 - Introduce a subscription model for premium resources.
 
+Setup:
+- Open terminal in VS and write the following commands in this order
+  - npm init -y
+  - npm i express
+  - npm i ejs
+  - npm i mongoose
+  - npm i bcrypt
+  - npm i nodemon
+- Open the package.json file and under "scripts" add "start": "nodemon app.js"
+  - "scripts": {
+  "start": "nodemon app.js"
+    }
+- Then to run the website open terminal again and write the following "nodemon src/app.js"
+
 Flowchart:
 ![image](https://github.com/gaddl/webapp-project/assets/77584037/1cf262c2-127c-4510-945a-403cbc92d21f)
