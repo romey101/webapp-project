@@ -70,3 +70,6 @@ Resources:
 - https://youtu.be/rpujWVkmiPE?feature=shared
 - https://medium.com/@developerom/login-page-with-node-js-and-mongodb-integration-bb1edeae906
 - https://youtu.be/3yfswsnD2sw?si=FlM5VpbT67ngnqen
+- https://www.geeksforgeeks.org/create-an-online-payment-project-using-html-css-javascript/
+- https://youtu.be/bCTd1eRX7Iw?si=e5Mg3nu_4KTfO4yg
+- https://youtu.be/V8PU_geaCCU?si=sY-QCSFDgSN9qSUb
