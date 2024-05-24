@@ -14,5 +14,18 @@ Help others succeed: Share your knowledge and support fellow students in their a
 This project empowers students to become resourceful and entrepreneurial. It's a win-win situation: you earn while helping others learn!
 
 Technologies Used:
-- Fronted:
-- Backend:
+- Fronted: HTML, CSS, JavaScript.
+- Backend: Node.js, express, ejs, moongoose, bcrypt, nodemon, MongoDB
+
+Our Goal:
+- Allow students to generate income from their educational materials
+- Provide a flexible platform for students to manage their studies and income.
+- Build a community where students help each other succeed academically.
+
+Future Work:
+- Develop a mobile application for on-the-go access.
+- Enhance security measures for transactions and data privacy.
+- Introduce a subscription model for premium resources.
+
+Flowchart:
+![image](https://github.com/gaddl/webapp-project/assets/77584037/1cf262c2-127c-4510-945a-403cbc92d21f)
