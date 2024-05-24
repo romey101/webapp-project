@@ -44,8 +44,20 @@ Setup:
 Flowchart:
 ![image](https://github.com/gaddl/webapp-project/assets/77584037/1cf262c2-127c-4510-945a-403cbc92d21f)
 
+- Some Screenshots:
+<img width="500" alt="Screenshot 2024-05-24 at 5 22 52 PM" src="https://github.com/romey101/webapp-project/assets/77584037/1c895974-fc1e-4722-a0f4-84e716c32c04">
+<img width="500" alt="Screenshot 2024-05-24 at 5 23 00 PM" src="https://github.com/romey101/webapp-project/assets/77584037/7c4b9fc1-d63a-434b-878d-bfcfd131c412">
+<img width="500" alt="Screenshot 2024-05-24 at 5 23 14 PM" src="https://github.com/romey101/webapp-project/assets/77584037/3e4ad8fb-a74c-419c-bdf0-07c1b25fdf41">
+<img width="500" alt="Screenshot 2024-05-24 at 5 23 20 PM" src="https://github.com/romey101/webapp-project/assets/77584037/3ae68e40-957e-48ac-ad51-24f82a144d8e">
+<img width="500" alt="Screenshot 2024-05-24 at 5 23 28 PM" src="https://github.com/romey101/webapp-project/assets/77584037/9f9bb91b-de56-4738-8ac1-6c920aaba9de">
+<img width="500" alt="Screenshot 2024-05-24 at 5 23 41 PM" src="https://github.com/romey101/webapp-project/assets/77584037/c6f3d29e-65ae-487e-9aaf-0ee5f18fc4f2">
+<img width="500" alt="Screenshot 2024-05-24 at 5 23 59 PM" src="https://github.com/romey101/webapp-project/assets/77584037/bf7428ab-9aac-4d58-bcae-f4f597f8b4e5">
+<img width="500" alt="Screenshot 2024-05-24 at 5 24 06 PM" src="https://github.com/romey101/webapp-project/assets/77584037/e7323366-e0c9-4d00-aa34-9a66be718c55">
+
+
 - Presentation: https://www.canva.com/design/DAGFhCITZtg/yxj0GhQEY1-M9Mmgor-niA/view?utm_content=DAGFhCITZtg&utm_campaign=designshare&utm_medium=link&utm_source=editor 
 - Demo: https://drive.google.com/file/d/1A-2NVfZzrgcW1AXRtxXygbnEfk5llntg/view?usp=drivesdk
+
 
 Students:
 - Maram Alshammary
