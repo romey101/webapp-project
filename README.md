@@ -59,7 +59,7 @@ Flowchart:
 - Demo: https://drive.google.com/file/d/1A-2NVfZzrgcW1AXRtxXygbnEfk5llntg/view?usp=drivesdk
 
 
-Students:
+Team Members:
 - Maram Alshammary
 - Shaden Alrshoud
 - Lama Alamri
