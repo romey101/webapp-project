@@ -64,3 +64,9 @@ Team Members:
 - Shaden Alrshoud
 - Lama Alamri
 - Ghadah Alqahtani
+
+Resources:
+- https://youtu.be/-HeadgoqJ7A?feature=shared 
+- https://youtu.be/rpujWVkmiPE?feature=shared
+- https://medium.com/@developerom/login-page-with-node-js-and-mongodb-integration-bb1edeae906
+- https://youtu.be/3yfswsnD2sw?si=FlM5VpbT67ngnqen
