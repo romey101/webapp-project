@@ -11,8 +11,11 @@
 
 body {
   min-height: 100vh;
-
+  margin: 0;
+  /* Add this to remove default margin */
 }
+
+/* header */
 
 header {
   position: absolute;
@@ -26,6 +29,40 @@ header {
   z-index: 2;
 
 }
+
+header img {
+  width: 25px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .iconCart {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+header .totalQuantity {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: x-small;
+  background-color: #958686;
+  width: 15px;
+  height: 13px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+  transform: translateX(20px);
+}
+
 
 header .logo {
   color: #484440;
@@ -47,12 +84,12 @@ header ul li {
   display: inline-block;
 }
 
-.user{
+.user {
   width: 25px;
   border-radius: 50%;
   cursor: pointer;
   margin-left: 50px;
-  
+
 }
 
 header ul li a {
@@ -68,39 +105,30 @@ header ul li a.active {
   color: #ffffff;
 }
 
-section {
-  position: relative;
-  width: 100%;
-  height: 100hv;
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #F6F2EC;
-}
-
 .sec {
   position: relative;
   padding: 50px 100px;
   background: #F6F2EC;
-  z-index: 2;
 }
 
 h2 {
   font-size: 3.5em;
   margin-bottom: 10px;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-top: 100px;
   color: #484440;
 }
 
 
-/* videos & notes section */
+/* videos section */
 
 .videos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  
+
 
 }
 
@@ -169,7 +197,73 @@ h2 {
   font-size: 13px;
 }
 
-/* videos & notes section */
+.price {
+  padding: 10px;
+  position: relative;
+  left: 40%;
+  background-color: var(--header-bg-color);
+  color: #484440;
+  z-index: 1;
+  font-size: 15px;
+  transition: .3s ease-in;
+}
+
+/* notes section */
+.notes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.note img {
+  transition: .4s;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px 4px 0 0;
+}
+
+
+.note {
+  position: relative;
+  overflow: hidden;
+  box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  background-color: #faf9f7;
+  cursor: pointer;
+  padding-bottom: 10px;
+  /* Add padding to create space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-content {
+  width: 100%;
+  color: #484440;
+  padding: 10px;
+  /* Reduce padding from the bottom */
+  margin-bottom: 10px;
+  border-radius: 0 0 4px 4px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.price2 {
+  padding: 10px;
+  position: relative;
+  background-color: var(--header-bg-color);
+  color: #484440;
+  z-index: 1;
+  font-size: 15px;
+  transition: .3s ease-in;
+}
+
 
 
 /* footer */

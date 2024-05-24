@@ -85,7 +85,7 @@
 
             <!-- <div class="checkout"> -->
             <input type="submit" value="Purchase" class="submit_btn">
-            <button class='submit_btn' type="button" onclick="location.href='vidoespage.html';">Back to Cart</button>
+            <button class='submit_btn' type="button" onclick="location.href='home.html';">Back to Cart</button>
 
             <!-- </div> -->
 
@@ -94,11 +94,11 @@
 
     </div>
     <script>
-         document.getElementById("cvv").addEventListener("input", function () {
-        if (this.value.length > 3) {
-            this.value = this.value.slice(0, 3); // Limit to 3 characters
-        }
-    });
+        document.getElementById("cvv").addEventListener("input", function () {
+            if (this.value.length > 3) {
+                this.value = this.value.slice(0, 3); // Limit to 3 characters
+            }
+        });
         let cardNumInput =
             document.querySelector('#cardNum')
 
@@ -111,7 +111,8 @@
                 cNumber = cNumber.join(" ")
                 cardNumInput.value = cNumber
             }
-        })</script>
+        })
+    </script>
 </body>
 
 </html>
