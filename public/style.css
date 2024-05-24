@@ -26,14 +26,17 @@ header {
   z-index: 2;
 
 }
+
 header img {
   width: 25px;
 }
+
 header .iconCart {
   position: relative;
   z-index: 1;
   cursor: pointer;
 }
+
 header .totalQuantity {
   position: absolute;
   top: 0;
@@ -51,14 +54,15 @@ header .totalQuantity {
   transform: translateX(20px);
 }
 
-header .logo{
+header .logo {
   color: #484440;
   text-decoration: none;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-h1{
+
+h1 {
   color: #484440;
   font-weight: 700;
   text-decoration: none;
@@ -78,12 +82,12 @@ header ul li {
   display: inline-block;
 }
 
-.user{
+.user {
   width: 25px;
   border-radius: 50%;
   cursor: pointer;
   margin-left: 50px;
-  
+
 }
 
 header ul li a {
@@ -109,47 +113,52 @@ section {
   align-items: center;
   background-color: #F6F2EC;
 }
+
 /* sub menu bar statrs */
 
-.sub-menu-wrap{
+.sub-menu-wrap {
   position: absolute;
-  top:100%;
+  top: 100%;
   right: 10%;
   width: 320px;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.5s;
 }
-.sub-menu-wrap.open-menu{
+
+.sub-menu-wrap.open-menu {
   max-height: 400px;
- 
+
 }
 
-.sub-menu{
+.sub-menu {
   background: #fff;
   padding: 20px;
-  margin:10px;
+  margin: 10px;
   border-radius: 3%;
-  
+
 }
-.user-info{
+
+.user-info {
   display: flex;
   align-items: center;
   border-radius: 3%;
-  
-  
+
+
 }
 
-.user-info h3{
+.user-info h3 {
   color: #484440;
-  font-weight: 800;   
+  font-weight: 800;
 }
-.user-info img{
+
+.user-info img {
   width: 50px;
   border-radius: 50%;
   margin-right: 15px;
 }
-.sub-menu hr{
+
+.sub-menu hr {
   border: 0;
   height: 1px;
   width: 260px;
@@ -158,7 +167,7 @@ section {
 
 }
 
-.sub-menu-link{
+.sub-menu-link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -166,31 +175,34 @@ section {
   margin: 12px 0;
   font-weight: 500;
 }
-.sub-menu-link p{
+
+.sub-menu-link p {
   width: 200%;
 }
 
-.sub-menu-link img{
+.sub-menu-link img {
   width: 40px;
   background: #e5e5e5;
   border-radius: 50%;
   padding: 8px;
   margin-right: 15px;
 }
-.sub-menu-link span{
+
+.sub-menu-link span {
   font-size: 20px;
   transition: transform 0.5s;
   color: #484440;
 }
 
-.sub-menu-link:hover span{
+.sub-menu-link:hover span {
   transform: translateX(5px);
 
 }
 
-.sub-menu-link:hover p{
+.sub-menu-link:hover p {
   font-weight: 700;
 }
+
 /* sub menu bar ends */
 
 .Hero::before {
@@ -263,7 +275,7 @@ h2 {
   text-align: center;
 }
 
-p{
+p {
   color: #484440;
 }
 
@@ -378,7 +390,7 @@ p{
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  
+
 
 }
 
@@ -447,6 +459,17 @@ p{
   font-size: 13px;
 }
 
+.price {
+  padding: 10px;
+  position: relative;
+  left: 40%;
+  background-color: var(--header-bg-color);
+  color: #484440;
+  z-index: 1;
+  font-size: 15px;
+  transition: .3s ease-in;
+}
+
 /* notes section */
 .notes {
   display: grid;
@@ -457,9 +480,9 @@ p{
 
 .note img {
   transition: .4s;
-  width: 100%; 
-  height: 200px; 
-  object-fit: cover; 
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
   display: block;
   border-radius: 4px 4px 0 0;
 }
@@ -472,7 +495,8 @@ p{
   border-radius: 4px;
   background-color: #faf9f7;
   cursor: pointer;
-  padding-bottom: 10px; /* Add padding to create space */
+  padding-bottom: 10px;
+  /* Add padding to create space */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -482,13 +506,24 @@ p{
 .note-content {
   width: 100%;
   color: #484440;
-  padding: 10px; /* Reduce padding from the bottom */
+  padding: 10px;
+  /* Reduce padding from the bottom */
   margin-bottom: 10px;
   border-radius: 0 0 4px 4px;
   font-size: 14px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.price2 {
+  padding: 10px;
+  position: relative;
+  background-color: var(--header-bg-color);
+  color: #484440;
+  z-index: 1;
+  font-size: 15px;
+  transition: .3s ease-in;
 }
 
 /* more button */
@@ -498,7 +533,8 @@ p{
   align-items: center;
 
 }
-.more-button a{
+
+.more-button a {
   text-decoration: none;
   font-size: 1em;
   color: #484440;
@@ -507,29 +543,11 @@ p{
   top: 10px;
   left: -10px;
 }
-.more-button a:hover{
+
+.more-button a:hover {
   color: #847e78;
 }
 
-.price{
-  padding: 10px;
-  position:relative;
-  left: 40%;
-  background-color: var(--header-bg-color);
-  color: #484440;
-  z-index: 1;
-  font-size: 15px;
-  transition: .3s ease-in;
-}
-.price2{
-    padding: 10px;
-    position:relative;
-    background-color: var(--header-bg-color);
-    color: #484440;
-    z-index: 1;
-    font-size: 15px;
-    transition: .3s ease-in;
-  }
 /* buy button */
 
 
@@ -552,7 +570,7 @@ p{
 
 /*cart*/
 
-.cart{
+.cart {
   color: #484440;
   position: fixed;
   width: 400px;
@@ -564,42 +582,49 @@ p{
   display: grid;
   grid-template-rows: 50px 1fr 50px;
   gap: 20px;
-  z-index: 100; /* Ensure the cart appears above other content */
-  transition: right 1s ease; 
-  
-  }
-  .container {
-  transition: transform 0.3s ease; /* Add transition effect for smooth animation */
-  }
-  
-  body.active .cart {
-  right: 0; /* Display the cart when body has active class */
-  }
-  
-  body.active .container {
-  transform: translateX(-300px); /* Shift the container when cart is open */
-  }
-  
-  .cart .buttons .checkout{
+  z-index: 100;
+  /* Ensure the cart appears above other content */
+  transition: right 1s ease;
+
+}
+
+.container {
+  transition: transform 0.3s ease;
+  /* Add transition effect for smooth animation */
+}
+
+body.active .cart {
+  right: 0;
+  /* Display the cart when body has active class */
+}
+
+body.active .container {
+  transform: translateX(-300px);
+  /* Shift the container when cart is open */
+}
+
+.cart .buttons .checkout {
   background-color: #484440;
   color: #ffffff;
-  }
-  .cart h3{
+}
+
+.cart h3 {
   color: #484440;
   padding: 20px;
   height: 30px;
   margin: 0;
-  }
-  
-  
-  .cart-item{
+}
+
+
+.cart-item {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
-  
-  }
-  .listCart.button{
+
+}
+
+.listCart.button {
   position: relative;
   left: 35%;
   background-color: #484440;
@@ -610,86 +635,58 @@ p{
   cursor: pointer;
   margin-bottom: 10px;
   transition: background-color 0.3s ease;
-  }
-  .cart .listCart .item .name{
+}
+
+.cart .listCart .item .name {
   font-weight: bold;
-  }
-  .cart .listCart .item .quantity{
+}
+
+.cart .listCart .item .quantity {
   display: flex;
   justify-content: end;
   align-items: center;
-  }
-  .cart .listCart .item .quantity span{
+}
+
+.cart .listCart .item .quantity span {
   display: block;
   width: 50px;
   text-align: center;
-  }
-  
-  .cart .listCart{
+}
+
+.cart .listCart {
   padding: 20px;
   overflow: auto;
-  }
-  .cart .listCart::-webkit-scrollbar{
+}
+
+.cart .listCart::-webkit-scrollbar {
   width: 0;
-  }
-  
-  
-  .cart .buttons{
+}
+
+
+.cart .buttons {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
-  }
-  .cart .buttons div{
+}
+
+.cart .buttons div {
   background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   cursor: pointer;
-  }
-  .cart .buttons a{
+}
+
+.cart .buttons a {
   color: #fff;
   text-decoration: none;
-  }
-  
-  
-  .buy-button {
-    position: relative;
-    left: 35%;
-    background-color: #484440;
-    color: #fff;
-    border: none;
-    padding: 10px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .buy-button:hover {
-    background-color: #847e78;
-  }
-  
-  .buy1-button {
-    position: relative;
-    background-color: #484440;
-    color: #fff;
-    border: none;
-    padding: 10px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .buy1-button:hover {
-    background-color: #847e78;
-  }
+}
 
 
-
-/* .buy-button {
+.buy-button {
   position: relative;
+  left: 35%;
   background-color: #484440;
   color: #fff;
   border: none;
@@ -702,7 +699,24 @@ p{
 
 .buy-button:hover {
   background-color: #847e78;
-} */
+}
+
+.buy1-button {
+  position: relative;
+  background-color: #484440;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.buy1-button:hover {
+  background-color: #847e78;
+}
+
 
 
 /* footer */
